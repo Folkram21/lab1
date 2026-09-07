@@ -14,4 +14,6 @@ int main() {
 
 	printf("Дано:\n\tN = %1.0f\n\tl = %1.0f\n\n", N, l);
 	printf("Ответ:\n\t%-+*.*f\n", k, m, N / l);
+
+	return 1;
 }
