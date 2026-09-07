@@ -5,9 +5,9 @@ int main() {
 	setlocale(LC_CTYPE, "RUS");
 
 	// числа для деления
-	float N, l;
-	N = 3;
-	l = 313;
+	float n, L;
+	n = 3;
+	L = 313;
 
 	// кол-во цифр в целой (k) и дробной (m) части
 	int k, m;
@@ -15,8 +15,8 @@ int main() {
 	m = 2;
 
 	// вывод результата деления
-	printf("Дано:\n\tN = %1.0f\n\tl = %1.0f\n\n", N, l);
-	printf("Ответ:\n\t%-+*.*f\n", k, m, N / l);
+	printf("Дано:\n\tN = %1.0f\n\tl = %1.0f\n\n", n, L);
+	printf("Ответ:\n\tn / L = %-+*.*f\n", k, m, n / L);
 
 	return 1;
 }
