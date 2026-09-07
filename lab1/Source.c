@@ -9,4 +9,5 @@ int main() {
 	printf("%d", 2);
 	printf("%d", 3);
 	printf("%d", 4);
+	printf("%10.3f\n ", 12.234657); // подзадание 5
 }
