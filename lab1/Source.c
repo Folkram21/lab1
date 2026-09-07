@@ -4,14 +4,17 @@
 int main() {
 	setlocale(LC_CTYPE, "RUS");
 
+	// числа для деления
 	float N, l;
 	N = 3;
 	l = 313;
 
+	// кол-во цифр в целой (k) и дробной (m) части
 	int k, m;
 	k = 4;
 	m = 2;
 
+	// вывод результата деления
 	printf("Дано:\n\tN = %1.0f\n\tl = %1.0f\n\n", N, l);
 	printf("Ответ:\n\t%-+*.*f\n", k, m, N / l);
 
